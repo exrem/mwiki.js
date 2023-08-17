@@ -1,7 +1,8 @@
 {
-  "name": "wiki.js",
+  "name": "mwiki.js",
   "version": "0.0.1",
   "description": "A simple API wrapper for Wikimedia projects.",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
