@@ -1,0 +1,27 @@
+{
+  "name": "@erayreperit/wiki.js",
+  "version": "0.0.1",
+  "description": "A simple API wrapper for Wikimedia projects.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erayreperit/wiki.js.git"
+  },
+  "keywords": [
+    "wikipedia",
+    "api"
+  ],
+  "author": "Eray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erayreperit/wiki.js/issues"
+  },
+  "homepage": "https://github.com/erayreperit/wiki.js#readme",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.1.6"
+  }
+}
