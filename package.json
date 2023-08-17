@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erayreperit/wiki.js.git"
+    "url": "git+https://github.com/erayreperit/mwiki.js.git"
   },
   "keywords": [
     "wikipedia",
@@ -23,9 +23,9 @@
   "author": "Eray",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erayreperit/wiki.js/issues"
+    "url": "https://github.com/erayreperit/mwiki.js/issues"
   },
-  "homepage": "https://github.com/erayreperit/wiki.js#readme",
+  "homepage": "https://github.com/erayreperit/mwiki.js#readme",
   "devDependencies": {
     "@types/node": "^20.5.0",
     "tsup": "^7.2.0",
