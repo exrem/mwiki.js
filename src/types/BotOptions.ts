@@ -1,6 +1,6 @@
 import { Project } from './'
 
-export default interface BotOptions {
+export declare interface BotOptions {
     project: Project
     username: string
     password: string

@@ -1,5 +1,5 @@
-declare class Bot {
-    constructor ({ project, username, password }: { project: string, username: string, password: string })
+/*declare class Bot {
+    constructor({ project, username, password }: { project: string, username: string, password: string })
 
     login(): void
 
@@ -7,7 +7,7 @@ declare class Bot {
     parse(...params: any): void
 }
 
-export const Bot6421 = new Bot ({
+export const Bot6421 = new Bot({
     project: 'azwiki',
     username: 'Bot6421',
     password: '1jb71bot'
@@ -15,6 +15,16 @@ export const Bot6421 = new Bot ({
 
 Bot6421.login()
 
-Bot6421.on ('loggedIn', () => {
-    const knyContent = Bot6421.parse ('Demon Slayer: Kimetsu no Yaiba')
+Bot6421.on('loggedIn', () => {
+    const knyContent = Bot6421.parse('Demon Slayer: Kimetsu no Yaiba')
+})*/
+
+import { Bot } from './classes/Bot'
+
+const Bot6421 = new Bot ({
+    username: 'Bot6421',
+    password: '1jb71bot',
+    project: 'azwiki'
 })
+
+console.log (Bot6421.endpoint)
